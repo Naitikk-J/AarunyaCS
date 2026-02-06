@@ -3,7 +3,7 @@ import PongGame from "@/components/PongGame"
 
 const Index = () => {
   return (
-    <main className="relative w-full min-h-screen overflow-y-scroll">
+    <main className="relative w-full min-h-screen">
       {/* Background Image */}
       <div 
         className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
@@ -27,9 +27,7 @@ const Index = () => {
         <PongGame />
       </div>
 
-      {/* Extra Scrollable Content */}
-      <div className="relative z-10 w-full py-32" />
-
+      
       {/* Vignette Effect */}
       <div
         className="absolute inset-0 pointer-events-none"
